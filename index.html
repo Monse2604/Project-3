@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Border Crossing Entry Data Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center" id="title">
+            <h1>Border Crossing Entry Data Dashboard</h1>
+            <p>Use the interactive charts below to explore the dataset</p>
+        </div>
+    </div>
+    <div class="row" id="filters" style="display: flex; justify-content: center;">
+        <div class="col-md-3">
+            <h6>Select Year:</h6>
+            <select id="yearDropdown" class="form-select"></select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" id="box1">
+            <!-- Content for Box 1 -->
+        </div>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script type="text/javascript" src="static/js/logic.js"></script>
+
+</body>
+</html>
