@@ -1,0 +1,25 @@
+/* Add borders and height for visualization */
+#title, #filters, #box1 {
+    border: 1px solid #ddd;
+    min-height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Ensure dropdowns are in a single row */
+#filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Make the chart larger and add some spacing */
+#box1 {
+    margin-top: 30px;
+}
+
+/* Style for the chart */
+#chart {
+    width: 100%;
+    height: 500px;
+}
